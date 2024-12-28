@@ -2,7 +2,7 @@
  * @Author: karlosiric
  * @Date:   2024-12-28 13:57:46
  * @Last Modified by:   karlosiric
- * @Last Modified time: 2024-12-28 14:00:05
+ * @Last Modified time: 2024-12-28 16:33:27
  */
 
 /*
@@ -17,13 +17,40 @@
 #include <stdio.h>
 int main(void) {
     
-    int number = 0;
+    // int number = 0;
     
-    while (number < 10) {
-        printf("Number is: %d\n", number);
-        number++;
+    // while (number < 10) {
+    //     printf("Number is: %d\n", number);
+    //     number++;
         
-    }
+    // }
+    
+    double initial = 0, step = 0, stop = 0;
+    
+    do {
+        printf("Initial (m): ");
+        scanf("%lf", &initial);
+        if (initial < 0) {
+            printf("Careful, intitial value must be >= 0\n");
+        }
+    } while (initial < 0);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

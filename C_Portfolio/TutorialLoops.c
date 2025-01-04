@@ -2,7 +2,7 @@
  * @Author: karlosiric
  * @Date:   2024-12-28 13:57:46
  * @Last Modified by:   karlosiric
- * @Last Modified time: 2024-12-28 16:33:27
+ * @Last Modified time: 2025-01-04 13:13:19
  */
 
 /*
@@ -35,23 +35,21 @@ int main(void) {
         }
     } while (initial < 0);
     
+    /*
+    char hello = printf("Hello World and welcome to the world of programming in C language!");
+    printf("%c\n", hello);
     
+    Here we have a problem it is because the printf function returns an int value
+    so when I store that into char array Hello we are mixing the two and 
+    taht is why I am getting B at the end of the output of the program.
     
+    So the printf function returns the integer value in C without the null terminator '\0'.
+    This is very important to know!
     
+    */
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    int hello = printf("Here we will test the number of characters in this output printf func!\n");
+    printf("Number of chars printed by the printf func here above is: %d\n", hello);
     
     
     return 0;

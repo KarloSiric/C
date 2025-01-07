@@ -2,7 +2,7 @@
  * @Author: karlosiric
  * @Date:   2024-12-28 13:57:46
  * @Last Modified by:   karlosiric
- * @Last Modified time: 2025-01-04 13:13:19
+ * @Last Modified time: 2025-01-07 14:08:33
  */
 
 /*
@@ -26,7 +26,6 @@ int main(void) {
     // }
     
     double initial = 0, step = 0, stop = 0;
-    
     do {
         printf("Initial (m): ");
         scanf("%lf", &initial);
@@ -34,6 +33,10 @@ int main(void) {
             printf("Careful, intitial value must be >= 0\n");
         }
     } while (initial < 0);
+    
+    
+    
+    
     
     /*
     char hello = printf("Hello World and welcome to the world of programming in C language!");

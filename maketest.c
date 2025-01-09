@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-07 17:30:35
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-09 11:49:23
+* @Last Modified time: 2025-01-09 11:53:29
 */
     
 /*
@@ -13,12 +13,12 @@
 #include <math.h>
 #include <stdio.h>
 
-
 double powerFunc(double number) {
     
     double powerNumber = pow(number, number);
     return powerNumber;
 }    
+
 
 double squareRoot(double number) {
     

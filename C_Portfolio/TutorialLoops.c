@@ -2,7 +2,7 @@
  * @Author: karlosiric
  * @Date:   2024-12-28 13:57:46
  * @Last Modified by:   karlosiric
- * @Last Modified time: 2025-01-09 11:52:12
+ * @Last Modified time: 2025-01-09 12:04:04
  */
 
 /*
@@ -15,7 +15,6 @@
 */
 
 #include <stdio.h>
-
 int main(void) {
     
     // int number = 0;
@@ -34,6 +33,8 @@ int main(void) {
             printf("Careful, intitial value must be >= 0\n");
         }
     } while (initial < 0);
+    
+    
     
         
     /*

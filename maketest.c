@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-07 17:30:35
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-09 11:53:29
+* @Last Modified time: 2025-01-09 12:27:59
 */
     
 /*
@@ -20,12 +20,20 @@ double powerFunc(double number) {
 }    
 
 
+
 double squareRoot(double number) {
     
     double square = sqrt(number);
     return square;    
 }   
-    
+
+/*
+ *Hello World and welcome to the programming language tool set used for making amazing C programming language programs!
+*/
+
+
+
+
     
 int main(void) {
    

@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-07 17:30:35
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-09 12:27:59
+* @Last Modified time: 2025-01-09 13:42:55
 */
     
 /*
@@ -13,32 +13,26 @@
 #include <math.h>
 #include <stdio.h>
 
+
 double powerFunc(double number) {
     
-    double powerNumber = pow(number, number);
+    double powerNumber = pow(number, 3);
     return powerNumber;
 }    
-
-
 
 double squareRoot(double number) {
     
     double square = sqrt(number);
-    return square;    
+    return square;        
 }   
 
-/*
- *Hello World and welcome to the programming language tool set used for making amazing C programming language programs!
-*/
-
-
-
-
-    
 int main(void) {
-   
-    double num;
     
+    char problem[] = "Problem";
+    printf("Printing a %s\n", problem);
+    
+    double operationOfNumbers; // not being used so Clang prints an warning for those kinds of things here, better than gcc.
+    double num;
     printf("Please enter a number that you want to square root: \n");
     scanf("%lf", &num);
     // print the square rooting now!

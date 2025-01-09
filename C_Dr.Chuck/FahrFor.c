@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2024-09-15 12:04:54
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2024-12-26 14:23:52
+* @Last Modified time: 2025-01-09 11:26:49
 */
 
 // Here we will write the fahr program but using for loop instead of while
@@ -16,6 +16,7 @@ int main(void) {
         printf("%5d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
     }
     
+        
     
     return 0;
 }

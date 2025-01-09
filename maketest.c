@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-07 17:30:35
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-07 19:11:18
+* @Last Modified time: 2025-01-09 11:25:49
 */
     
 /*
@@ -23,13 +23,13 @@ double powerFunc(double number) {
 double squareRoot(double number) {
     
     double square = sqrt(number);
-    return square;
+    return square;    
     
     
 }   
     
 int main(void) {
-    
+   
     double num;
     
     printf("Please enter a number that you want to square root: \n");

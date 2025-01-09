@@ -2,7 +2,7 @@
  * @Author: karlosiric
  * @Date:   2024-12-28 13:57:46
  * @Last Modified by:   karlosiric
- * @Last Modified time: 2025-01-09 11:28:40
+ * @Last Modified time: 2025-01-09 11:52:12
  */
 
 /*
@@ -35,9 +35,9 @@ int main(void) {
         }
     } while (initial < 0);
     
-    
+        
     /*
-    
+
     char hello = printf("Hello World and welcome to the world of programming in C language!");
     printf("%c\n", hello);
 

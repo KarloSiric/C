@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-07 17:30:35
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-09 11:25:49
+* @Last Modified time: 2025-01-09 11:49:23
 */
     
 /*
@@ -24,9 +24,8 @@ double squareRoot(double number) {
     
     double square = sqrt(number);
     return square;    
-    
-    
 }   
+    
     
 int main(void) {
    

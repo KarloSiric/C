@@ -2,7 +2,7 @@
  * @Author: karlosiric
  * @Date:   2024-12-28 13:57:46
  * @Last Modified by:   karlosiric
- * @Last Modified time: 2025-01-09 12:24:50
+ * @Last Modified time: 2025-01-10 14:09:36
  */
 
 /*
@@ -18,11 +18,9 @@
 int main(void) {
     
     // int number = 0;
-    
     // while (number < 10) {
     //     printf("Number is: %d\n", number);
-    //     number++;
-        
+    //     number++;    
     // }
     
     

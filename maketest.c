@@ -14,6 +14,11 @@
     
 #include <math.h>
 #include <stdio.h>
+#include <stdlib.h> 
+#include <time.h>
+
+ 
+
 
 
 double powerFunc(double number) {
@@ -26,11 +31,17 @@ double squareRoot(double number) {
     
     double square = sqrt(number);
     return square;        
-}   
+}
+
+   
+
 
 int main(void) {
-    
-       
+    int i;
+    printf("Printing:");
+    // for (int j = 0; j <= 20; j ++) {
+    //     printf("Random number %d is: %f", j);
+    // }   
     char problem[] = "PROBLEM";
     printf("Printing a %s\n", problem);
     double operationOfNumbers; // not being used so Clang prints an warning for those kinds of things here, better than gcc.

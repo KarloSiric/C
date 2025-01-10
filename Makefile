@@ -3,6 +3,11 @@
 # Compiler and flags
 CC = clang
 CFLAGS = -std=c18 -Wall -Wno-newline-eof -Wno-comment -pedantic -g
+# Another compiler settings
+# CC = gcc
+# INCDIRS = -I.
+# OPT = -O0
+# CFLAGS = -Wall -Wextra -g $(INCDIRS) $(OPT)
 
 # Get all .c files in the directory
 SOURCES = $(wildcard *.c)
@@ -16,9 +21,9 @@ all: $(EXECUTABLES)
 %: %.c
 	$(CC) $(CFLAGS) $< -o $@
 
-# Target to compile and run a specific file
-run:
-	@read -p "Enter the program name (without .c): " file && $(CC) $(CFLAGS) $$file.c -o $$file && ./$$file
+# # Target to compile and run a specific file
+# run:
+# 	@read -p "Enter the program name (without .c): " file && $(CC) $(CFLAGS) $$file.c -o $$file && ./$$file
 
 # Clean all executables
 clean:
@@ -28,6 +33,6 @@ clean:
 help:
 	@echo "Usage:"
 	@echo "  make                 - Compile all .c files"
-	@echo "  make run FILE=<name> - Run a specific program"
+# 	@echo "  make run FILE=<name> - Run a specific program"
 	@echo "  make clean           - Remove all compiled executables"
 	

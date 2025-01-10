@@ -5,7 +5,8 @@
 * @Last Modified time: 2025-01-10 14:02:51
 */
 /*
-    This is just another programming video tutorial    
+    This is just another testing file and it is used for testing purposes ONLY!
+*/    
 /*
     this is just a test file for testing the make file I am about to create
     This is also important because make files can make things easier for us when doing c programming!
@@ -29,7 +30,7 @@ double squareRoot(double number) {
 
 int main(void) {
     
-    
+       
     char problem[] = "PROBLEM";
     printf("Printing a %s\n", problem);
     double operationOfNumbers; // not being used so Clang prints an warning for those kinds of things here, better than gcc.

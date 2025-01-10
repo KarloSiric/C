@@ -11,10 +11,11 @@
     He also has a guide on solving problems in C and I will be documenting that
    too. Some prior basics are missing I might add them later on but for now
    loops and forward stuff only.
+ */
 
-*/
 
 #include <stdio.h>
+
 int main(void) {
     
     // int number = 0;
@@ -50,8 +51,6 @@ int main(void) {
     */
     
     int hello = printf("Here we will test the number of characters in this output printf func!\n");
-    printf("Number of chars printed by the printf func here above is: %d\n", hello);
-    
-    
+    printf("Number of chars printed by the printf func here above is: %d\n", hello);    
     return 0;
 }

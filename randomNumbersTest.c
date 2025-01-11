@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-10 16:28:33
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-11 01:43:12
+* @Last Modified time: 2025-01-11 02:06:17
 */
 
 #include <stdio.h>
@@ -26,12 +26,27 @@ int main(void) {
                                                     
                                                     
                         // now we can print the random numbers
-    
+    int arrayOfRandoms[5];
+    int temp;
     for(int i = 0; i < 5; i++) {
         double randomValue = rand() / (double) RAND_MAX; // this gives us numbers between 0 and 1 but since it is double it has higher precision floating point set.
         // lets modify something let see how we can get random number integers between 0 and RAND_MAX, just use rand() func!
-        long int randomIntegers = rand();        
-        printf("Random number %d is: %ld\n", i, randomIntegers);
+        long int randomIntegers = rand();
+        arrayOfRandoms[i] = randomIntegers;
+        if(arrayOfRandoms[i + 1] > arrayOfRandoms[i]) {
+            arrayOfRandoms[i + 1] = arrayOfRandoms[i];
+            arrayOfRandoms[i] = temp;
+            temp = arrayOfRandoms[i];
+        }
+    }
+    /*
+        This is wrong needs change and modifying, gonna do it tommorow
+        
+     */
+    
+    for (int i = 0; i < 5; i++) 
+    {
+        printf("Numbers in the array printed are: %d\n", arrayOfRandoms[i]);
     }
     
     

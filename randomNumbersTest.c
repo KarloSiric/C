@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-10 16:28:33
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-11 20:13:33
+* @Last Modified time: 2025-01-11 20:28:20
 */
 
 #include <stdio.h>
@@ -47,10 +47,26 @@ int main(void) {
     int n = sizeof(arrayOfRandoms) / sizeof(arrayOfRandoms[0]);
     qsort(arrayOfRandoms, sizeof(arrayOfRandoms) / sizeof(arrayOfRandoms[0]), sizeof(double), compare);
     
+    // lets sort it using bubble sort now
+    // need to make a new functon bubblesort
+    /*
     for (int i = 0; i < n; i++) {
-        printf("Sorted array is: %lf ", arrayOfRandoms[i]);
+        printf("Element [%d] of the sorted array:  %lf\n",i, arrayOfRandoms[i]);
     }
+    */
     
+    // writing it using the following: {a,b,c,...}, lets do it!
+    printf("{");
+    for (int i = 0; i < sizeof(arrayOfRandoms) / sizeof(arrayOfRandoms[0]); i++) 
+    {
+        printf("%lf", arrayOfRandoms[i]);
+        if(i < n - 1) { // has to go n - 1 because without it all elements would have , that's wrong!
+            printf(",");
+        }
+    }
+    printf("}");
+    
+    // maybe I can print them so that they are properly inside the array;
     
     
     /*

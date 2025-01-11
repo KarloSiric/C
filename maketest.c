@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-07 17:30:35
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-10 14:02:51
+* @Last Modified time: 2025-01-11 01:41:10
 */
 /*
     This is just another testing file and it is used for testing purposes ONLY!
@@ -15,11 +15,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h> 
-#include <time.h>
-
- 
-
-
+#include <time.h> 
 
 double powerFunc(double number) {
     
@@ -32,13 +28,11 @@ double squareRoot(double number) {
     double square = sqrt(number);
     return square;        
 }
-
-   
-
-
+    
 int main(void) {
     int i;
     printf("Printing:");
+    printf("Hello World");
     // for (int j = 0; j <= 20; j ++) {
     //     printf("Random number %d is: %f", j);
     // }   

@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-10 16:28:33
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-11 02:06:17
+* @Last Modified time: 2025-01-11 02:19:23
 */
 
 #include <stdio.h>
@@ -44,12 +44,11 @@ int main(void) {
         
      */
     
-    for (int i = 0; i < 5; i++) 
-    {
-        printf("Numbers in the array printed are: %d\n", arrayOfRandoms[i]);
-    }
-    
-    
+    // for (int i = 0; i < 5; i++) 
+    // {
+    //     printf("Numbers in the array printed are: %d\n", arrayOfRandoms[i]);
+    // }
+    return 0;
 }
 /*
 The `rand()` function generates a pseudo-random integer. The range of this integer is from 0 to `RAND_MAX`, inclusive.

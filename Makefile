@@ -21,7 +21,7 @@ all: $(EXECUTABLES)
 # Force recompilation of all files without cleaning
 rebuild: clean all
 	@echo "\033[1;36mRebuilt all files!\033[0m"
-
+	
 # Option to force recompilation without cleaning
 force:
 	@echo "\033[1;33mForcing recompilation of all files...\033[0m"

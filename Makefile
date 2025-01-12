@@ -2,7 +2,7 @@
 
 # Compiler and flags
 CC = clang
-CFLAGS = -std=c99 -Wall -Wextra -Wnull-dereference -Wformat=2 -Wno-newline-eof -Wno-comment -fdiagnostics-show-option -fcolor-diagnostics -pedantic -g
+CFLAGS = -std=c18 -Wall -Wextra -Wnull-dereference -Wformat=2 -Wno-newline-eof -Wno-comment -pedantic -g
 
 # Get all .c files in the directory
 SOURCES = $(wildcard *.c)

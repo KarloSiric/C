@@ -1,13 +1,8 @@
-#This is a make file for our C programming language. 
+# This is a Makefile for our C programming language.
 
 # Compiler and flags
 CC = clang
-CFLAGS = -std=c18 -Wall -Wno-newline-eof -Wno-comment -pedantic -g
-# Another compiler settings
-# CC = gcc
-# INCDIRS = -I.
-# OPT = -O0
-# CFLAGS = -Wall -Wextra -g $(INCDIRS) $(OPT)
+CFLAGS = -std=c99 -Wall -Wextra -Wnull-dereference -Wformat=2 -Wno-newline-eof -Wno-comment -fdiagnostics-show-option -fcolor-diagnostics -pedantic -g
 
 # Get all .c files in the directory
 SOURCES = $(wildcard *.c)
@@ -19,20 +14,29 @@ all: $(EXECUTABLES)
 
 # Rule to compile each .c file into an executable
 %: %.c
+	@echo "\033[1;34mCompiling $<...\033[0m"
 	$(CC) $(CFLAGS) $< -o $@
+	@echo "\033[1;32mFinished $@.\033[0m"
 
-# # Target to compile and run a specific file
-# run:
-# 	@read -p "Enter the program name (without .c): " file && $(CC) $(CFLAGS) $$file.c -o $$file && ./$$file
+# Force recompilation of all files without cleaning
+rebuild: clean all
+	@echo "\033[1;36mRebuilt all files!\033[0m"
 
-# Clean all executables
+# Option to force recompilation without cleaning
+force:
+	@echo "\033[1;33mForcing recompilation of all files...\033[0m"
+	touch $(SOURCES)
+	$(MAKE) all
+
+# Clean all executables and logs
 clean:
-	rm -f $(EXECUTABLES)
+	rm -f $(EXECUTABLES) *.log
 
 # Help message
 help:
 	@echo "Usage:"
 	@echo "  make                 - Compile all .c files"
-# 	@echo "  make run FILE=<name> - Run a specific program"
-	@echo "  make clean           - Remove all compiled executables"
-	
+	@echo "  make logs            - Compile all files and generate logs for warnings/errors"
+	@echo "  make clean           - Remove all compiled executables and logs"
+	@echo "  make rebuild         - Clean and rebuild all files"
+	@echo "  make force           - Force recompilation without cleaning"

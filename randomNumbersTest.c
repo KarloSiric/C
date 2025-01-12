@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-10 16:28:33
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-11 20:28:20
+* @Last Modified time: 2025-01-12 15:33:42
 */
 
 #include <stdio.h>
@@ -36,15 +36,15 @@ int main(void) {
                                                     
                         // now we can print the random numbers
     double arrayOfRandoms[5];
-    int temp;
-    for(int i = 0; i < 5; i++) {
+    int n = sizeof(arrayOfRandoms) / sizeof(arrayOfRandoms[0]);
+    int i;
+    for(i = 0; i < 5; i++) {
         double randomValue = rand() / (double) RAND_MAX; // this gives us numbers between 0 and 1 but since it is double it has higher precision floating point set.
         // lets modify something let see how we can get random number integers between 0 and RAND_MAX, just use rand() func!
         // long int randomIntegers = rand();
         arrayOfRandoms[i] = randomValue;
     }
     // now we sort it!
-    int n = sizeof(arrayOfRandoms) / sizeof(arrayOfRandoms[0]);
     qsort(arrayOfRandoms, sizeof(arrayOfRandoms) / sizeof(arrayOfRandoms[0]), sizeof(double), compare);
     
     // lets sort it using bubble sort now
@@ -57,14 +57,15 @@ int main(void) {
     
     // writing it using the following: {a,b,c,...}, lets do it!
     printf("{");
-    for (int i = 0; i < sizeof(arrayOfRandoms) / sizeof(arrayOfRandoms[0]); i++) 
+    int size = sizeof(arrayOfRandoms) / sizeof(arrayOfRandoms[0]);
+    for (i = 0; i < size; i++) 
     {
         printf("%lf", arrayOfRandoms[i]);
         if(i < n - 1) { // has to go n - 1 because without it all elements would have , that's wrong!
             printf(",");
         }
     }
-    printf("}");
+    // printf("}");
     
     // maybe I can print them so that they are properly inside the array;
     

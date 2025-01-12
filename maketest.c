@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-07 17:30:35
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-11 01:41:10
+* @Last Modified time: 2025-01-12 15:17:05
 */
 /*
     This is just another testing file and it is used for testing purposes ONLY!
@@ -30,12 +30,8 @@ double squareRoot(double number) {
 }
     
 int main(void) {
-    int i;
     printf("Printing:");
     printf("Hello World");
-    // for (int j = 0; j <= 20; j ++) {
-    //     printf("Random number %d is: %f", j);
-    // }   
     char problem[] = "PROBLEM";
     printf("Printing a %s\n", problem);
     double operationOfNumbers; // not being used so Clang prints an warning for those kinds of things here, better than gcc.

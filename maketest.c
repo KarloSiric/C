@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-07 17:30:35
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-12 22:42:33
+* @Last Modified time: 2025-01-12 22:58:32
 */
 /*
     This is just another testing file and it is used for testing purposes ONLY!
@@ -21,7 +21,8 @@ double powerFunc(double number) {
     
     double powerNumber = pow(number, 3);
     return powerNumber;
-}    
+}
+
 
 double squareRoot(double number) {
     

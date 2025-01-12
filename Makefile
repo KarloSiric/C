@@ -15,7 +15,9 @@ all: $(EXECUTABLES)
 # Rule to compile each .c file into an executable
 %: %.c
 	@echo "\033[1;34mCompiling $<...\033[0m"
+	
 	$(CC) $(CFLAGS) $< -o $@
+	
 	@echo "\033[1;32mFinished $@.\033[0m"
 
 # Force recompilation of all files without cleaning

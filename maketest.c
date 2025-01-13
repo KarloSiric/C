@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-07 17:30:35
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-13 09:48:39
+* @Last Modified time: 2025-01-13 18:00:00
 */
 /*
     This is just another testing file and it is used for testing purposes ONLY!
@@ -32,6 +32,7 @@ double squareRoot(double number) {
 int main(void) {
     // double operationOfNumbers; // not being used so Clang prints an warning for those kinds of things here, better than gcc.
     // Alwyas declare first variables, makes the code so much more readable!
+    
     char problem[] = "PROBLEM";
     double num;
     
@@ -42,6 +43,7 @@ int main(void) {
     scanf("%lf", &num);
     
     // print the square rooting now!
+    
     printf("The square root of the number %lf is: %lf\n", num, squareRoot(num));
     printf("The power of the number %lf itself: %lf\n", num, powerFunc(num));
     

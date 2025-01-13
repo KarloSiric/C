@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-13 10:22:23
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-13 10:40:35
+* @Last Modified time: 2025-01-13 10:53:21
 */
 
 // Following the tutorial on C from Portfolio Courses Channel
@@ -35,9 +35,13 @@ int main(void) {
         if (stop < 0) printf("Must be >= 0!\n");
     } while (stop < 0); // this ensures that we keep doing this until we have entered a positive number in the first place
     
+    printf("\n");
+    printf("\tMeter  ||  Feet\n");
+    printf("\t****************\n");
     for (double conv = initial; conv <= stop; conv += step) {
-        printf("%f || %f\n",conv, conv * 3.28084);       
+        printf("%13.3f  ||  %.3f\n",conv, conv * 3.28084);       
     }
+    printf("\n");
     
     
     return 0;

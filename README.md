@@ -59,7 +59,8 @@
     
     🤝 Contributing
 
-    This is a personal learning project, but suggestions and improvements are always welcome! Feel free to open issues or share tips and tricks.
+    This is a personal learning project, but suggestions and improvements are always welcome! 
+    Feel free to open issues or share tips and tricks.
     
     📖 Resources I’m Using
     •   Books:
@@ -70,8 +71,10 @@
     
     ❤️ Acknowledgments
 
-    Special thanks to the authors and creators of the books and resources that are helping me on this journey. Your work inspires countless programmers worldwide.
+    Special thanks to the authors and creators of the books and resources that are helping me on this journey. 
+    Your work inspires countless programmers worldwide.
     
     📝 License
 
-    This repository is for personal use and learning purposes. Feel free to reference the code, but please respect any referenced resources.
+    This repository is for personal use and learning purposes. 
+    Feel free to reference the code, but please respect any referenced resources.

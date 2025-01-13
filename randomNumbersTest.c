@@ -2,7 +2,7 @@
  * @Author: karlosiric
  * @Date:   2025-01-10 16:28:33
  * @Last Modified by:   karlosiric
- * @Last Modified time: 2025-01-12 23:13:29
+ * @Last Modified time: 2025-01-13 09:42:18
  */
 
 #include <stdio.h>
@@ -19,6 +19,7 @@ int compare(const void *a, const void *b) {
         return 1;
     return 0;
 }
+
 
 int main(void) {
     srand(time(

@@ -8,9 +8,12 @@
     🚀 Purpose
 
     This repository is my attempt to:
-    •   Deeply learn and understand C programming: Covering the basics, advanced concepts, and systems-level programming.
-    •   Document my learning process: Sharing notes, comments, and solutions to problems I encounter.
-    •   Build a strong foundation: Gaining the skills required for backend development, embedded programming, or systems programming.
+    •   Deeply learn and understand C programming: Covering the basics, 
+        advanced concepts, and systems-level programming.
+    •   Document my learning process: Sharing notes, comments,
+        and solutions to problems I encounter.
+    •   Build a strong foundation: Gaining the skills required for backend development, 
+        embedded programming, or systems programming.
     
     📂 Folder Structure
 
@@ -43,7 +46,8 @@
     •   Larger projects combining multiple concepts and showcasing my learning.
     
     🌟 Features
-    •   📘 Documentation: Each program and project is accompanied by explanations, notes, and detailed comments for clarity.
+    •   📘 Documentation: Each program and project is accompanied by explanations, 
+        notes, and detailed comments for clarity.
     •   🛠️ Tools: Using Sublime Text, Alacritty, and Clang to write and compile code.
     •   📂 Structure: Each folder reflects a specific learning resource or focus area.
     
@@ -53,7 +57,8 @@
     •   Terminal: Kitty
     
     🌱 What’s Next?
-    •   Adding more advanced projects: Focus on systems-level programming, networking, and multi-threading.
+    •   Adding more advanced projects: Focus on systems-level programming,
+        networking, and multi-threading.
     •   Deep dives into memory management and data structures.
     •   Documentation and better organization of completed projects.
     
@@ -71,7 +76,8 @@
     
     ❤️ Acknowledgments
 
-    Special thanks to the authors and creators of the books and resources that are helping me on this journey. 
+    Special thanks to the authors and creators of the books and resources
+    that are helping me on this journey. 
     Your work inspires countless programmers worldwide.
     
     📝 License

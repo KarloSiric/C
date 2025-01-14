@@ -22,10 +22,8 @@
     C_Sublime_Portfolio
     •   Code snippets and projects written using Sublime Text.
     •   Examples include:
-    •   randomNumbersTest.c: (Brief description of the purpose of this file.)
-    •   maketest.c: (Brief description of the purpose of this file.)
-    •   switch.c: (Brief description of the purpose of this file.)
-    •   Macro.c: (Brief description of the purpose of this file.)
+    •   randomNumbersTest.c: (Used as a testing purpose for testing random numbers in C.)
+    •   maketest.c: (Used for testing the Makefile I am using.)
 
     C_ExtremeC
     •   Projects and exercises inspired by the book Extreme C, exploring advanced C topics.

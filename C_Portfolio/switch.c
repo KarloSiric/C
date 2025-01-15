@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-13 10:55:51
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-15 13:10:58
+* @Last Modified time: 2025-01-15 13:13:09
 */
 
 // new problem, discussin switch statements
@@ -22,6 +22,8 @@ int main(void) {
             printf("Case 2!\n");
         case 3:
             printf("Case 3!\n");
+        default:
+            printf("Default case printed in case nothing else works!\n");
     }
     
     printf("Switch statement over!\n");

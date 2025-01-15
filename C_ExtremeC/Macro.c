@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-13 18:43:12
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-14 14:31:58
+* @Last Modified time: 2025-01-14 17:29:25
 */
 
 // In this program we discuss macros, macros are very important.
@@ -19,14 +19,24 @@
 #define ABC 5 // a macro very useful when programming, it is defined as having a name and a value
             // a preprocessor replaces then all the names with its values in the code.
 
+
 int main(int argc, char** argv) {
     int x = 2;
     int y = ABC;
     int z = x + y;
     printf("Printing result of z: %d\n", z);
-    
     return 0;
 }
+
+int compare (void) {
+    
+    int comparison = 0;
+    do {
+        printf("Hello everyone, enter your number: ");
+        scanf("%d", &comparison);
+    } while (comparison < 0);
+}
+
 /*
     Here we can rewrite the code by deleting the macro and having int y = 5;
     Then the situation is that we only have the C compiler do the work

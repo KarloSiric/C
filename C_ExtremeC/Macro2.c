@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-14 14:32:20
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-14 14:39:49
+* @Last Modified time: 2025-01-14 17:22:36
 */
 
 /*
@@ -12,6 +12,7 @@
  */
 
 #include <stdio.h>
+
 #define ADD(a, b) a + b
 
 int main(int argc, char const *argv[])
@@ -22,6 +23,7 @@ int main(int argc, char const *argv[])
     int z = ADD(x, y);
     
     printf("The sum of x and y is: %d\n", z);
+    
     
     return 0;
 }
